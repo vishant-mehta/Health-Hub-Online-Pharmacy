@@ -69,7 +69,16 @@ function input_data($data) {
                         $row1 = mysqli_fetch_array($result);
                         if($row1['password'] == $password){
                         mysqli_close($db);
-                        header("location:http://localhost/WP2/mini/homepage/homepagefinal.php");
+                        
+                        session_start();
+                        if(isset($_POST["remember"]))
+                        {
+                            $_SESSION["email"] = $_POST["email"];
+                            header("location:http://localhost/WP2/mini/homepage/homepagefinal.php");
+                        }
+
+
+                        
                        }
                        else{
                           mysqli_close($db);
