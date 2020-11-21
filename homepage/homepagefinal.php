@@ -27,10 +27,10 @@ session_start();
 	        <div class="container">
 	            <nav><font color="white" size=5>
 	                <a href="#" target="_blank">Home</a>
-	                <a href="#" target="_blank">Signup</a>
-	                <a href="#" target="_blank">Login</a>
 	                <a href="#" target="_blank">About</a>
-	                <a href="#" target="_blank">Contact</a>
+	                <a href="#" target="_blank">Update Details</a>
+	                <a href="../exp7/cartfinal.php" target="_blank">Cart</a>
+	                <a href="#" target="_blank">Logout</a>
 	            </font></nav>
 	        </div>
 	</div>
@@ -64,20 +64,27 @@ session_start();
 		<img id="product" src="benadry.jpg">
 		<p class="name name1">Benadryl Cough Syrup</p>
 		<p class="price price1">Rs. 75</p>
-		<button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</button><button type="button" class="btn wishlist">
+		<button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="../exp7/cart.php?name=Benadryl Cough Syrup" id="links"><font color="white"> Add to Cart</font></a></button><button type="button" class="btn wishlist">
 		<i class="fa fa-heart-o" aria-hidden="true"></i></button>
 	</div>
 	<div class="col-sm-3">
 		<img id="product" src="o2.jpg">
 		<p class="name name3">O2 Tablet</p>
 		<p class="price price3">Rs. 137.25</p>
-		<button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</button><button type="button" class="btn wishlist">
+		<button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="../exp7/cart.php?name=O2 Tablet" id="links"><font color="white"> Add to Cart</font></a></button><button type="button" class="btn wishlist">
 		<i class="fa fa-heart-o" aria-hidden="true"></i></button>
 	</div>
 	<div class="col-sm-3">
 		<img id="product" src="healthok.jpg">
 		<p class="name name4">Health OK Tablet</p>
 		<p class="price price4">Rs. 265</p>
+		<button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="../exp7/cart.php?name=Health OK Tablet" id="links"><font color="white"> Add to Cart</font></a></button><button type="button" class="btn wishlist">
+		<i class="fa fa-heart-o" aria-hidden="true"></i></button>
+	</div>
+	<div class="col-sm-3">
+		<img id="product" src="crocin.jpg">
+		<p class="name name4">Crocin Advance Tablet</p>
+		<p class="price price4">Rs. 14.95</p>
 		<button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</button><button type="button" class="btn wishlist">
 		<i class="fa fa-heart-o" aria-hidden="true"></i></button>
 	</div>
